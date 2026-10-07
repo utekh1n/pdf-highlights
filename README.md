@@ -1,6 +1,6 @@
 # PDF Highlights
 
-PDF Highlights 3.7.1 — animated highlighter marks over PDF text.
+PDF Highlights 3.8.0 — animated highlighter marks over PDF text.
 
 Open a PDF, drag across the words, and get a ProRes 4444 clip with alpha: the marker sweeps over the text, the camera zooms and moves between pages. Works offline; nothing is uploaded anywhere. Text recognition for scans in 45 European languages.
 
@@ -8,12 +8,16 @@ Open a PDF, drag across the words, and get a ProRes 4444 clip with alpha: the ma
 
 | File | For |
 |---|---|
-| `PDF-Highlights-3.7.1-mac-apple-silicon.zip` | Mac with Apple silicon (M1 and newer), macOS 13+ |
-| `PDF-Highlights-3.7.1-mac-intel.zip` | Mac with an Intel processor, macOS 13+ |
-| `PDF-Highlights-3.7.1-windows.zip` | Windows 10/11 (64-bit) |
-| `PDF-Highlights-3.7.1-linux-x64.zip` | Ubuntu 22.04+ (64-bit) |
-| `PDF-Highlights-3.7.1-premiere-pro.zip` | Plugin for Adobe Premiere Pro 26.2+ (Mac) |
-| `PDF-Highlights-3.7.1-davinci-resolve.zip` | Plugin for DaVinci Resolve Studio 20.1+ (Mac) |
+| `PDF-Highlights-3.8.0-mac-apple-silicon.zip` | Mac with Apple silicon (M1 and newer), macOS 13+ |
+| `PDF-Highlights-3.8.0-mac-intel.zip` | Mac with an Intel processor, macOS 13+ |
+| `PDF-Highlights-3.8.0-windows.zip` | Windows 10/11 (64-bit) |
+| `PDF-Highlights-3.8.0-linux-x64.zip` | Ubuntu 22.04+ (64-bit) |
+| `PDF-Highlights-3.8.0-premiere-pro.zip` | Plugin for Adobe Premiere Pro 26.2+ (Mac) |
+| `PDF-Highlights-3.8.0-davinci-resolve.zip` | Plugin for DaVinci Resolve Studio 20.1+ (Mac) |
+
+**New in 3.8**
+- Play highlights together: drag a highlight's bar on the timeline onto another one's start (it snaps and links), or tick "Play together with the highlight before it" under Timing. They are drawn at the same time, one under the other on the timeline, and the camera frames them together.
+- Whole page in frame: one switch in the Pages tab keeps the whole page in the frame for every highlight in the file (no zoom).
 
 **New in 3.7**
 - Pen circle and Pencil circle: one hand-drawn loop round the whole selection, with ink or graphite texture.
